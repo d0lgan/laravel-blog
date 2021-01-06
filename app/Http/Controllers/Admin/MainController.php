@@ -3,18 +3,15 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use App\Tag;
 use Illuminate\Http\Request;
-use Illuminate\Support\Str;
-use Cviebrock\EloquentSluggable\Sluggable;
 
 class MainController extends Controller
 {
-    public function index() {
-        $tag = new Tag();
-        $tag->title = 'Привет мир';
-        $tag->save();
 
+    public function index()
+    {
+        // TODO: add unique to slug fields
         return view('admin.index');
     }
+
 }

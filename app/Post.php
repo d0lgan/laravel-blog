@@ -14,10 +14,16 @@ class Post extends Model
         return $this->belongsToMany(Tag::class);
     }
 
-    public function category() {
+    public function category()
+    {
         return $this->belongsTo(Category::class);
     }
 
+    /**
+     * Return the sluggable configuration array for this model.
+     *
+     * @return array
+     */
     public function sluggable()
     {
         return [
@@ -26,4 +32,5 @@ class Post extends Model
             ]
         ];
     }
+
 }

@@ -29,8 +29,7 @@
                         </div>
                         <!-- /.card-header -->
                         <div class="card-body">
-                            <a href="{{ route('tags.create') }}" class="btn btn-primary mb-3">Добавить
-                                тег</a>
+                            <a href="{{ route('tags.create') }}" class="btn btn-primary mb-3">Добавить тег</a>
                             @if (count($tags))
                                 <div class="table-responsive">
                                     <table class="table table-bordered table-hover text-nowrap">
@@ -59,10 +58,8 @@
                                                         method="post" class="float-left">
                                                         @csrf
                                                         @method('DELETE')
-                                                        <button type="submit" class="btn btn-danger btn-sm"
-                                                                onclick="return confirm('Подтвердите удаление')">
-                                                            <i
-                                                                class="fas fa-trash-alt"></i>
+                                                        <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Подтвердите удаление')">
+                                                            <i class="fas fa-trash-alt"></i>
                                                         </button>
                                                     </form>
                                                 </td>
@@ -78,13 +75,6 @@
                         <!-- /.card-body -->
                         <div class="card-footer clearfix">
                             {{ $tags->links() }}
-                            {{--<ul class="pagination pagination-sm m-0 float-right">
-                                <li class="page-item"><a class="page-link" href="#">«</a></li>
-                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item"><a class="page-link" href="#">»</a></li>
-                            </ul>--}}
                         </div>
                     </div>
                     <!-- /.card -->

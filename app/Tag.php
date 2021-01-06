@@ -9,9 +9,7 @@ class Tag extends Model
 {
     use Sluggable;
 
-    protected $fillable = [
-        'title'
-    ];
+    protected $fillable = ['title'];
 
     public function posts()
     {
@@ -31,4 +29,5 @@ class Tag extends Model
             ]
         ];
     }
+
 }
