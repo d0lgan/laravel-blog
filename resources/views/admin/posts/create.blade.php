@@ -41,13 +41,13 @@
 
                                 <div class="form-group">
                                     <label for="description">Цитата</label>
-                                    <textarea name="description" class="form-control" id="description" rows="3"
+                                    <textarea name="description" class="form-control @error('description') is-invalid @enderror" id="description" rows="3"
                                               placeholder="Цитата ..."></textarea>
                                 </div>
 
                                 <div class="form-group">
                                     <label for="content">Контент</label>
-                                    <textarea name="content" class="form-control" id="content" rows="7"
+                                    <textarea name="content" class="form-control @error('content') is-invalid @enderror" id="content" rows="7"
                                               placeholder="Контент ..."></textarea>
                                 </div>
 
