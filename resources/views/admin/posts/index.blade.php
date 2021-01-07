@@ -37,7 +37,7 @@
                                         <tr>
                                             <th style="width: 30px">#</th>
                                             <th>Наименование</th>
-                                            <th>Категория</th>
+                                            <th>Категории</th>
                                             <th>Теги</th>
                                             <th>Дата</th>
                                             <th>Actions</th>
