@@ -277,6 +277,12 @@
                             {{ session('success') }}
                         </div>
                     @endif
+
+                        @if (session()->has('error'))
+                            <div class="alert alert-danger">
+                                {{ session('error') }}
+                            </div>
+                        @endif
                 </div>
             </div>
         </div>
@@ -310,6 +316,10 @@
             $(this).addClass('active');
             $(this).closest('.has-treeview').addClass('menu-open');
         }
+    });
+
+    $(document).ready(function () {
+        bsCustomFileInput.init();
     });
 </script>
 
