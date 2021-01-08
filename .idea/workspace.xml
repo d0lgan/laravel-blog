@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1634b40c-b522-4c19-a568-472d02eb3a5b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_03_210648_create_categories_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_03_210732_create_tags_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_03_210753_create_posts_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_03_210916_create_post_tag_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +177,8 @@
       <updated>1609737132106</updated>
       <workItem from="1609737140579" duration="1375000" />
       <workItem from="1609795534851" duration="3179000" />
-      <workItem from="1609814482185" duration="25194000" />
+      <workItem from="1609814482185" duration="31046000" />
+      <workItem from="1610053139264" duration="3648000" />
     </task>
     <servers />
   </component>
@@ -180,14 +190,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="117" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1609991216736" />
-    <state x="509" y="243" key="NewPhpFileDialog" timestamp="1609897781130">
+    <state x="509" y="243" key="NewPhpFileDialog" timestamp="1610055883908">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="509" y="243" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1609897781130" />
-    <state x="359" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1609815516517">
+    <state x="509" y="243" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1610055883908" />
+    <state x="359" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1610053664101">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="359" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1609815516517" />
+    <state x="359" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1610053664101" />
     <state x="339" y="157" key="run.anything.popup" timestamp="1609898755243">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
