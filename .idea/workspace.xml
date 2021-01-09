@@ -3,15 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="1634b40c-b522-4c19-a568-472d02eb3a5b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/TagController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/TagController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/admin/ckfinder/core/connector/php/vendor/cksource/ckfinder" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/ckfinder/core/connector/php/vendor/cksource/ckfinder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/js/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/js/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,11 +150,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\пользователь\Downloads\OSPanel\domains\wfmblog\resources\views\admin" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\пользователь\Downloads\OSPanel\domains\wfmblog\app\Http\Controllers\Admin" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\пользователь\Downloads\OSPanel\domains\wfmblog\resources\views\admin" />
       <recent name="C:\Users\пользователь\Downloads\OSPanel\domains\wfmblog\app\Http\Controllers\Admin" />
     </key>
   </component>
@@ -179,7 +178,8 @@
       <workItem from="1609795534851" duration="3179000" />
       <workItem from="1609814482185" duration="31046000" />
       <workItem from="1610053139264" duration="4403000" />
-      <workItem from="1610070530378" duration="15643000" />
+      <workItem from="1610070530378" duration="15749000" />
+      <workItem from="1610155189661" duration="8321000" />
     </task>
     <servers />
   </component>
@@ -191,22 +191,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="117" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1610106311059" />
-    <state x="509" y="243" key="NewPhpFileDialog" timestamp="1610105716390">
+    <state x="509" y="243" key="NewPhpFileDialog" timestamp="1610164197282">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="509" y="243" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1610105716390" />
-    <state x="359" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1610070562630">
+    <state x="509" y="243" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1610164197282" />
+    <state x="359" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1610155265753">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="359" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1610070562630" />
+    <state x="359" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1610155265753" />
+    <state x="490" y="274" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610170639315">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="490" y="274" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1610170639315" />
     <state x="339" y="157" key="run.anything.popup" timestamp="1610100400169">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="157" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1610100400169" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1610106409258">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1610163988453">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1610106409258" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1610163988453" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
